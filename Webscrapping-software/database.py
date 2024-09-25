@@ -9,7 +9,7 @@ def DB_Connection():
         try:
 
 
-             mention you connection here
+            connection = pymysql.connect(host = "hostname", user = "username", password='password', db='dbname', charset='utf8',cursorclass=pymysql.cursors.DictCursor)
       
             return connection
         except Exception as e:
