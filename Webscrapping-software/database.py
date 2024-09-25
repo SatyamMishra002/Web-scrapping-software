@@ -7,10 +7,10 @@ def DB_Connection():
     a = 0
     while a == 0:
         try:
-            connection = pymysql.connect(host='185.142.34.92', user='ams',password='TgdRKAGedt%h',db='tenders_db', charset='utf8',cursorclass=pymysql.cursors.DictCursor)
-            # connection = pymysql.connect(host = 'localhost', user = "root", passwd = "root", db ="cloud_db")
-            # connection = pymysql.connect(host = 'localhost', user = "root", passwd = "Gts@1234", db ="cloud_db", charset='utf8',cursorclass=pymysql.cursors.DictCursor)
-            # connection = pymysql.connect(host = 'localhost', user = "root", passwd = "QW#MySQL2", db ="gts" , charset='utf8',cursorclass=pymysql.cursors.DictCursor)
+
+
+             mention you connection here
+      
             return connection
         except Exception as e:
             exc_type , exc_obj , exc_tb = sys.exc_info()
